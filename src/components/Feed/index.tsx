@@ -1,16 +1,17 @@
 import React from 'react';
+import Tweet from '../Tweet'
 
-import { Container, Tab } from './styles';
+import { Container, Tab, Tweets } from './styles';
 
 const Feed: React.FC = () => {
     return (
         <Container>
             <Tab>Tweets</Tab>
-            {/* <Tweets>
+            <Tweets>
                 <Tweet />
                 <Tweet />
                 <Tweet />
-            </Tweets> */}
+            </Tweets>
         </Container>
     );
 }
